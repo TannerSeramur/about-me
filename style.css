@@ -87,11 +87,16 @@ button{
 	align-items: center;
     align-content: center;
     padding: 20px;
-    border-radius: 20px;
+ 
 }
-.konaPic{
-    border-radius: 25px;
+img.konaPic{
     padding: 15px;
+    -webkit-filter: blur(1px) grayscale(70%); 
+  transition: 0.2s -webkit-filter ease-in-out;
+}
+.konaPic:hover{
+    -webkit-filter: blur(0px) grayscale(0);
+    transform: blur(0px) grayscale(0); 
 }
 h5{
     color: #f1f1f1;
