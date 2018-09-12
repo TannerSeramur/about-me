@@ -2,11 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="Tanner Seramur" >
+    <meta content="Day 2 lecture practice">
+    <title>About Me</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>All About Me</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="tagName">TANNER SERAMUR</h1>
+            <img  src="img/profilepic.jpeg" onclick="myFunc('myModal')" alt="profile pic" class="profilePic">
+            <h3 class = "tagName"> Web Design/Full Stack Development</h3>
+            <h6><a class=emailLink href="seramurt@gmail.com">seramurt@gmail.com</a></h6>
+            <p>Click on my head to veiw the answers to my quiz</p>
+        </section>
+
+        <div class="popup-container" id= "popup" onclick="closePop()">
+            <div class="popup">
+                    <h4>Whats my name?: Tanner</h4>  
+                    <h4>Is my hair red?: Yes</h4>
+                    <h4>Do I have more then 1 dog?: No</h4> 
+                    <h4>Am I a student at CodeFellows?: Yes</h4> 
+                    <h4>Do I live in portland?: No</h4>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer></footer>
+    
+
+<script src="app.js"></script>
     
 </body>
 </html>
