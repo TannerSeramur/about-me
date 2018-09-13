@@ -68,6 +68,10 @@ p{
     color: #0e9183;
     padding:5px;
 }
+p.quizGap{
+    margin-bottom: 10px;
+}
+
 h4{
     text-align: center;
     color: #0e6286;
