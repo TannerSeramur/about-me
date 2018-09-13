@@ -5,10 +5,10 @@ var score = 0;
 
 alert("Welcome to my page! Here is a quick quiz to see how much you know about me");
 
-var answer = prompt("Whats my name?");
+var answer = prompt("Is my name Tanner?");
 console.log(answer.toLowerCase());
 
-if(answer.toLowerCase() === "tanner" ){
+if((answer.toLowerCase() === "yes") || (answer.toLowerCase() === "y") ){
     alert("Correct!");
     score = score +1; 
 }else{
