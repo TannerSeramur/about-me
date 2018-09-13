@@ -19,7 +19,10 @@ h1{
 
 ul{
     color: #0e9183;
-    margin: 20px;
+    width: 200px;
+    align-items: center;
+    display: block;
+
 }
 
 footer{
@@ -27,8 +30,8 @@ footer{
     
 }
 .profilePic{
-    width: 150px;
-      height: 150px;
+    width: 220px;
+      height: 220px;
       border-radius: 50%;
       border: null;
       transition: all .5s;
@@ -73,12 +76,36 @@ h4{
 a:link{
     color:#09b66d
 }
-button{
-    background-color: red;
-    align-content: center;
+/* top 10 list */
 
+li{
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 25px;
+    color: #0e9183;
+}
+.list-title{
+    /* background: red; */
+    /* width:400px; */
+    text-align: center
+    
+    
+}
+.list-container{
+    /* background-color:red; */
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
+
+
+
+
+
+/* Pictures of dog start here */
 .kona-container{
     display: flex;
 	flex-direction: row-reverse;
@@ -101,6 +128,9 @@ img.konaPic{
 h5{
     color: #f1f1f1;
 }
+.footertext{color:#f1f1f1}
+
+
 footer{
     background-color:#0e6286;
     text-align: center;
