@@ -66,14 +66,14 @@ if((answer.toLowerCase() === "no") || (answer.toLowerCase() === "n") ){
 // lab 3 work starts here
 // for loop that gives users 4 guesses
 
-for(var i = 0; i < 4; i++){
+for(var i = 0; i <= 4; i++){
     var numGuess = prompt("Guess my favorite number?")
   
     if(numGuess < 10){
       alert("Too low! Guess higher!");
     }else if(numGuess > 10){
       alert("Too high! Guess lower!");
-    }else if(numGuess === 10){
+    }else if(numGuess = 10){
       alert("Nice! You got it!");
       score = score +1;
       break;
