@@ -2,5 +2,5 @@
 201 lab 2
 
 Paired Programming lab:
-Kevin - Driver
-Tanner - Nav
+Kevin -> Driver
+Tanner -> Nav
