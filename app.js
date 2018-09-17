@@ -128,11 +128,6 @@ favNumber();
 alert("You have scored "+ score + " out of 7");
 
 
-
-
-
-
-
 // POP-UP STARTS HERE
 console.log('getting here');
         var login = document.getElementById("popup")

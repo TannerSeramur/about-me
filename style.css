@@ -91,22 +91,15 @@ li{
     color: #0e9183;
 }
 .list-title{
-    /* background: red; */
-    /* width:400px; */
     text-align: center
     
     
 }
 .list-container{
-    /* background-color:red; */
     display:flex;
     justify-content: center;
     align-content: center;
 }
-
-
-
-
 
 
 /* Pictures of dog start here */
@@ -143,8 +136,6 @@ footer{
 }
 
 
-
-
 /* modal here */
 
 .popup-container{
@@ -160,8 +151,6 @@ footer{
     align-items: center;
     visibility: hidden;
 
-  
-  
   }
   
   .popup{
