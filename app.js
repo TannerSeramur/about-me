@@ -1,8 +1,6 @@
 'use strict';
-
 // Quiz
 var score = 0;
-
 alert("Welcome to my page! Here is a quick quiz to see how much you know about me");
 
 var answer = prompt("Is my name Tanner?");
@@ -126,20 +124,15 @@ favNumber();
  cityNames();
 
 alert("You have scored "+ score + " out of 7");
-
-
 // POP-UP STARTS HERE
 console.log('getting here');
         var login = document.getElementById("popup")
-      
-      
+        
         var myFunc = function(type){
             console.log('open');
             login.classList.add("isvisable");
         }
-        
-      
-      
+
         var closePop = function(){
            if(event.currentTarget === event.target){
              
